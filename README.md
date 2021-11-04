@@ -1,1 +1,1 @@
-# sql_queries_1
+# this repo represents sqlqueries for a project
