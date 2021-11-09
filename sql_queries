@@ -1,2 +1,4 @@
 SELECT product_code, ROUND(AVG(sales_amount),2) as Average_Sales, sales_qty, year(order_date) as yr, monthname(order_date) as ms 
 FROM transactions group by ms ORDER BY yr ASC
+
+
